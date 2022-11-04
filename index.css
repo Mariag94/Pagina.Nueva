@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Grandstander', cursive;
+    color: #ff7f50;
+    position: auto;
+    text-align: center;
+    
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.promos{
+    color: black;
+    position: absolute;
+}
+
+.nav__responsive-ul{
+    display: none;
+}
+
+.nav {
+    background-color: #ff7f50;
+}
+
+.nav_li{
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+}
+
+.nav_li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_li:hover {
+    color: beige;
+}
+
+.nav_li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 500px) { .nav-ul { display: none;}}
